@@ -26,3 +26,30 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+##############
+# in frontend folder...
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/yodlr-frontend/node_modules
+/frontend/yodlr-frontend/.pnp
+frontend/yodlr-frontend/.pnp.js
+
+# testing
+/frontend/yodlr-frontend/coverage
+
+# production
+/frontend/yodlr-frontend/build
+
+# misc
+frontend/yodlr-frontend/.DS_Store
+frontend/yodlr-frontend/.env.local
+frontend/yodlr-frontend/.env.development.local
+frontend/yodlr-frontend/.env.test.local
+frontend/yodlr-frontend/.env.production.local
+
+frontend/yodlr-frontend/npm-debug.log*
+frontend/yodlr-frontend/yarn-debug.log*
+frontend/yodlr-frontend/yarn-error.log*
